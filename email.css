@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@100;300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8e4fd;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    width: 30%; 
+    height: 55%;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 5px 10px 12px #b8b8b8;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+}
+
+input{
+    margin: 5px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    outline: 0;
+    border: solid 1px #c4c3c3;
+}
+
+button{
+    margin: 8px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(62, 33, 251);
+    color: #FFF;
+    cursor: pointer;
+}
+
+textarea{
+    outline: 0;
+    border-radius: 5px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    min-width: 185px;
+    max-width: 200px;
+    min-height: 65px;
+}
+
+button:hover{
+    background-color: rgb(47, 17, 241);
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Email</title>
+    <link rel="stylesheet" href="email.css" />
+</head>
+
+<body>
+    <form id="formulario">
+        <div class="email">
+            <label>
+                Cópia: <br>
+                <input id="copia" type="email">
+            </label>
+
+            <label>
+                Para: <br>
+                <input id="destinatario" type="email">
+            </label>
+
+            <label>
+                Assunto: <br>
+                <input id="assunto" type="text">
+            </label>
+
+            <textarea placeholder="Digite o conteúdo aqui" id="textarea" rows="5"></textarea>
+            <button type="button" onclick="pegaDados()">Enviar</button>
+        </div>
+    </form>
+
+
+    <script src="./email.js"></script>
+</body>
+
+</html>
